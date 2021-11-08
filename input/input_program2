@@ -1,0 +1,16 @@
+START;
+function;
+print(ANSWER);
+   Varx = Varx*2;
+   vary = Varx*vary;
+   print (varx,vary);
+
+
+end;
+Varx = 23;
+vary = 50;
+call 1;
+Varx = 13;
+vary = 150;
+call 1;
+FINISH;

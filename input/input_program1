@@ -1,0 +1,14 @@
+START;
+function;
+do
+   x = x-1; 
+   y = x*x; 
+   print (x,y);
+   print (x > 10);
+while x > 10;
+end; 
+x = 23;
+call 1;
+x = 13;
+call 1;
+FINISH;
